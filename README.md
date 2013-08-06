@@ -9,8 +9,12 @@ Interop servers for http and https are available as below.
 
 + https : NPN with protocol name HTTP-draft-04/2.0
 
-https://http2.iijplus.jp:8443/
+ https://http2.iijplus.jp:8443/
 
 iij-http2 needs more code cleanup. So it is still in my private repository. Stay tuned for open to public.
+
+If you find any issues, please submit them to this repository.
+
+
 
 
