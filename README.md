@@ -1,5 +1,7 @@
 ## Information of HTTP/2.0 interop testing for iij-http2
 
+## ** The servier is under maintanance for the next interop testing of HTTP-draft-06/2.0 **
+
 Interop servers for http and https are available as below.
 
 
