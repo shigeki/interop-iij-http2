@@ -1,6 +1,6 @@
 ## Information of HTTP/2.0 interop testing for iij-http2
 
-Interop servers for HTTP-draft-09/2.0 in http and https are available as below.
+Interop servers for HTTP-draft-09/2.0 of https and itnermediary are available as below.
 
 + https : ALPN and NPN with protocol name of HTTP-draft-09/2.0
 
