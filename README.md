@@ -1,22 +1,22 @@
 ## Information of HTTP/2.0 interop testing for iij-http2
 
-Interop servers for HTTP-draft-06/2.0 in http and https are available as below.
+Interop servers for HTTP-draft-09/2.0 in http and https are available as below.
 
++ https : ALPN and NPN with protocol name of HTTP-draft-09/2.0
 
-+ http : Direct Connection or Upgrade from HTTP1.1 to HTTP/2.0
+ https://http2.iijplus.jp/
 
-  http://http2.iijplus.jp:8080/
++ intermediary: proxy of https(HTTP-draft-09/2.0)->http(HTTP/1.1) to http://www.iij.ad.jp/
 
-+ https : ALPN and NPN with protocol name HTTP-draft-06/2.0
+ https://http2-proxy.iijplus.jp/
 
- https://http2.iijplus.jp:8443/
-
-### Pages
+### Test Pages on http2.iijplus.jp
 + Static Files
 + Print Request Headers
-+ HPACK-03 Tests(Ajax needed)
++ HPACK-05 Tests(Ajax needed)
 + Flow Control Tests(Ajax needed)
 + PushPromise Tests
++ Header Tests(Ordering/Cookie) (Ajax needed)
 
 iij-http2 needs more code cleanup. So it is still in my private repository. Stay tuned for open to public.
 
