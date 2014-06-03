@@ -1,14 +1,10 @@
 ## Information of HTTP/2.0 interop testing for iij-http2
 
-Interop servers for HTTP-draft-09/2.0 of https and itnermediary are available as below.
+Interop servers for HTTP2 draft12 of https and itnermediary are available as below.
 
-+ https : ALPN and NPN with protocol name of HTTP-draft-09/2.0
++ https : ALPN and NPN with protocol name of h2-12
 
  https://http2.iijplus.jp/
-
-+ intermediary: proxy of https(HTTP-draft-09/2.0)->http(HTTP/1.1) to http://www.iij.ad.jp/
-
- https://http2-proxy.iijplus.jp/
 
 ### Test Pages on http2.iijplus.jp
 + Static Files
@@ -17,6 +13,11 @@ Interop servers for HTTP-draft-09/2.0 of https and itnermediary are available as
 + Flow Control Tests(Ajax needed)
 + PushPromise Tests
 + Header Tests(Ordering/Cookie) (Ajax needed)
++ Padding Test
++ Frame Compression Test(need SETTINGS_COMPRESS_DATA is 1)
+
+Due to the implementation of stream priority of its dependency and weight, HTTP perfomance is largely degraded.
+This is just a prototype to evaluate HTTP/2 functionarities. Need more optimazation.
 
 iij-http2 needs more code cleanup. So it is still in my private repository. Stay tuned for open to public.
 
